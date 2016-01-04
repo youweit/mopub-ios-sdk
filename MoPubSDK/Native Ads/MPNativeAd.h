@@ -216,4 +216,6 @@
  */
 - (void)loadImageForURL:(NSURL *)imageURL intoImageView:(UIImageView *)imageView;
 
+@property (nonatomic, assign) BOOL didClicked;
+
 @end

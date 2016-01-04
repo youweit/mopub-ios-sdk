@@ -425,6 +425,7 @@ static const CGFloat kMoPubImpressionTimerInterval = 0.25;
 
 - (void)nativeAdDidClick:(id<MPNativeAdAdapter>)adAdapter
 {
+    self.didClicked = YES;
     [self trackClick];
 }
 
